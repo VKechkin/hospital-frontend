@@ -1,0 +1,140 @@
+.records {
+  margin: 24px;
+  height: 500px;
+  overflow: scroll;
+
+  &__header {
+    border-bottom: 1px solid #000;
+    background: #c4c4c4;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__el-1 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__el-2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__el-3 {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__el-4 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__el-5 {
+    width: 10%;
+    display: flex;
+  }
+
+  .wrapper-records {
+    background-color: #fff;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .wrapper-records:last-child {
+    border-bottom: 1px solid #000;
+  }
+
+  &__name {
+    border-left: 1px solid #000;
+    border-right: 2px solid #000;
+    width: 25%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    padding: 4px;
+    cursor: pointer;
+  }
+
+  &__name:focus {
+    background-color: rgb(192, 6, 6);
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    padding: 4px;
+  }
+  
+
+  &__doctor {
+    border-right: 2px solid #000;
+    width: 25%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 4px;
+  }
+
+  &__date {
+    border-right: 2px solid #000;
+    width: 15%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+  }
+
+  &__comment {
+    border-right: 2px solid #000;
+    width: 30%;
+    height: 70px;
+    display: flex;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    padding: 4px;
+  }
+
+  &__function {
+    border-right: 1px solid #000;
+    width: 10%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+  }
+
+  &__img {
+    cursor: pointer;
+  }
+}
